@@ -13,6 +13,13 @@
 		A3494CE123C0E2230072532C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3494CDF23C0E2230072532C /* Main.storyboard */; };
 		A3494CE323C0E22D0072532C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3494CE223C0E22D0072532C /* Assets.xcassets */; };
 		A3494CE623C0E22D0072532C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3494CE423C0E22D0072532C /* LaunchScreen.storyboard */; };
+		A3494CEF23C0F3420072532C /* Bangladesh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CEE23C0F3420072532C /* Bangladesh.m4a */; };
+		A3494CF123C0F34B0072532C /* Saudi Arabia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CF023C0F34B0072532C /* Saudi Arabia.m4a */; };
+		A3494CF323C0F3570072532C /* Russia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CF223C0F3570072532C /* Russia.m4a */; };
+		A3494CF523C0F35E0072532C /* Poland.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CF423C0F35E0072532C /* Poland.m4a */; };
+		A3494CF723C101310072532C /* UK.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CF623C101310072532C /* UK.m4a */; };
+		A3494CF923C1013B0072532C /* Australia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CF823C1013B0072532C /* Australia.m4a */; };
+		A3494CFB23C1014C0072532C /* Germany.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A3494CFA23C1014C0072532C /* Germany.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		A3494CE223C0E22D0072532C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3494CE523C0E22D0072532C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3494CE723C0E22D0072532C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3494CEE23C0F3420072532C /* Bangladesh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bangladesh.m4a; sourceTree = "<group>"; };
+		A3494CF023C0F34B0072532C /* Saudi Arabia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saudi Arabia.m4a"; sourceTree = "<group>"; };
+		A3494CF223C0F3570072532C /* Russia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Russia.m4a; sourceTree = "<group>"; };
+		A3494CF423C0F35E0072532C /* Poland.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poland.m4a; sourceTree = "<group>"; };
+		A3494CF623C101310072532C /* UK.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = UK.m4a; sourceTree = "<group>"; };
+		A3494CF823C1013B0072532C /* Australia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Australia.m4a; sourceTree = "<group>"; };
+		A3494CFA23C1014C0072532C /* Germany.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germany.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				A3494CE223C0E22D0072532C /* Assets.xcassets */,
 				A3494CE423C0E22D0072532C /* LaunchScreen.storyboard */,
 				A3494CE723C0E22D0072532C /* Info.plist */,
+				A3494CED23C0E2490072532C /* Anthems */,
 			);
 			path = "National Anthem";
+			sourceTree = "<group>";
+		};
+		A3494CED23C0E2490072532C /* Anthems */ = {
+			isa = PBXGroup;
+			children = (
+				A3494CF023C0F34B0072532C /* Saudi Arabia.m4a */,
+				A3494CEE23C0F3420072532C /* Bangladesh.m4a */,
+				A3494CF223C0F3570072532C /* Russia.m4a */,
+				A3494CF423C0F35E0072532C /* Poland.m4a */,
+				A3494CF623C101310072532C /* UK.m4a */,
+				A3494CF823C1013B0072532C /* Australia.m4a */,
+				A3494CFA23C1014C0072532C /* Germany.m4a */,
+			);
+			path = Anthems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3494CF123C0F34B0072532C /* Saudi Arabia.m4a in Resources */,
+				A3494CF323C0F3570072532C /* Russia.m4a in Resources */,
+				A3494CF923C1013B0072532C /* Australia.m4a in Resources */,
 				A3494CE623C0E22D0072532C /* LaunchScreen.storyboard in Resources */,
+				A3494CF523C0F35E0072532C /* Poland.m4a in Resources */,
 				A3494CE323C0E22D0072532C /* Assets.xcassets in Resources */,
 				A3494CE123C0E2230072532C /* Main.storyboard in Resources */,
+				A3494CF723C101310072532C /* UK.m4a in Resources */,
+				A3494CFB23C1014C0072532C /* Germany.m4a in Resources */,
+				A3494CEF23C0F3420072532C /* Bangladesh.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
